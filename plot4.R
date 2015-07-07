@@ -4,7 +4,7 @@
 
 #Packages Used - dplyr
 #install.packages("dplyr")
-#library("dplyr")
+library("dplyr")
 
 #Loading Data
 power <- read.table("household_power_consumption.txt", sep = ";", header = TRUE)
